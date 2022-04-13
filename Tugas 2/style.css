@@ -1,0 +1,70 @@
+body {
+    background: url(https://th.bing.com/th/id/R.7f35065f22c4c707987597123ca12323?rik=1AlGp9ooAGg2Rg&riu=http%3a%2f%2fwallpapercave.com%2fwp%2ffDoMQ3Q.jpg&ehk=ZJE5Fp9%2bq1TQjLDgPOXpPm4%2bmH1b1ZREI4zn7cAvkVw%3d&risl=&pid=ImgRaw&r=0) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+}
+
+.container:before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(5px);
+    margin: -5px;
+}
+
+label {
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    max-width:100%;
+    margin-bottom:1rem;
+    background-color:transparent;
+    text-align: center;
+    border: 2px solid
+}
+
+table tr th {
+    border: 2px solid #007bff;
+    border-collapse:collapse;
+    color: #fff;
+    background-color: #007bff;
+    height: 40px;
+}
+
+table tr td {
+    border: 2px solid #007bff;
+    height: 30px;
+    color: black;
+}
+
+.ips {
+    font-weight: bold;
+}
+
+.btn {
+    height: 40px;
+    width: 80px;
+}
